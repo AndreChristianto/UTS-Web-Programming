@@ -1,0 +1,340 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#navbar {
+    overflow: hidden;
+    text-align: center;
+    justify-content: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#topBar {
+    background-color: #ff6961;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 1.3vw;
+    padding-bottom: 1.3vw;
+    vertical-align: middle;
+    text-decoration: none;
+    height: 3vw;
+    font-size: 2vw;
+
+    color: white;
+    font-weight: lighter;
+}
+
+#botBar {
+    display: flex;
+    background-color: whitesmoke;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 0.3vw;
+    padding-bottom: 0.3vw;
+    justify-content: center;
+    /* height: 1.3vw; */
+    font-size: 0.85vw;
+}
+
+#categoryBtn, .navLink {
+    border: none;
+    background-color: whitesmoke;
+    padding: none;
+    margin: none;
+    font-size: 0.85vw;
+    width: 5vw;
+}
+
+.dropdown:hover .dropdown-list{
+    display: block;
+}
+.dropdown-content {
+    display: block;
+    text-align: center;
+    justify-content: center;
+}
+
+.dropdown-list {
+    background-color: whitesmoke;
+    list-style-type: none;
+    text-align: center;
+    justify-content: center;
+    display: none;
+    position: absolute;
+}
+
+.dropdown-category {
+    text-decoration: none;
+    padding-top: 0.5vw;
+    padding-bottom: 0.5vw;
+    color: #ff6961;
+}
+
+.dropdown-list li {
+    width: 6.8vw;
+    padding-top: 0.5vw;
+    padding-bottom: 0.5vw;
+    padding-left: 0.1vw;
+    padding-right: 0.1vw;
+    position: relative;
+    font-size: 0.85vw;
+    font-weight: lighter;
+}
+
+.dropdown {
+    justify-content: center;
+    text-align: center;
+}
+
+.navLink {
+    color: #ff6961;
+    font-weight: lighter;
+    text-decoration: none;
+    margin-left: 1vw;
+    margin-right: 1vw;
+}
+
+.home-content {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    margin-top: 1vw;
+    margin-bottom: 10.37vw;
+}
+
+.home-title, .contact-title, .category-title {
+    font-weight: lighter;
+    background-color: slategray;
+    color: white;
+    padding: 1vw;
+}
+
+.book-list {
+    background-color: whitesmoke;
+    padding: 1vw;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-radius: 5px;
+    margin-left: 1vw;
+    margin-right: 1vw;
+    width: 10vw;
+    height: 19vw;
+}
+
+.publish-card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-radius: 5px;
+    margin-left: 1vw;
+    margin-right: 1vw;
+    width: 17vw;
+    height: 15.5vw;
+}
+
+.publish-card-detail {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-radius: 5px;
+    margin-left: 1vw;
+    margin-right: 1vw;
+    width: 17vw;
+    height: 16vw;
+}
+
+.card-img {
+    margin-top: 0.7vw;
+    display: block;
+    width: 10vw;
+    height: 10vw;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.publish-card-img {
+    margin-top: 0.7vw;
+    display: block;
+    width: 15vw;
+    height: 10vw;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container {
+    margin-left: 0.5vw;
+    margin-bottom: 0.5vw;
+    margin-right: 0.5vw;
+}
+
+.book-title-text, .book-author-text, .by {
+    margin-top: 0.25vw;
+    margin-bottom: 0.25vw;
+    font-size: 0.7vw;
+}
+
+img {
+    border-radius: 5px 5px 0 0;
+}
+
+.book-list {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.published-list {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: whitesmoke;
+    padding: 1vw;
+}
+
+.published-content {
+    margin-bottom: 13.9vw;
+}
+
+.detail-btn {
+    background-color: #ff6961;
+    color: white;
+    padding: 0.3vw;
+    border: none;
+    border-radius: 0.25vw 0.25vw 0.25vw 0.25vw;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    text-decoration: none;
+    font-size: 0.7vw;
+}
+
+.detail-btn:hover {
+    cursor: pointer;
+    background-color: white;
+    color: #ff6961;
+}
+
+.detail-title, .detail-by, .detail-author, .detail-synopsis {
+    font-size: 0.8vw;
+    margin-top: 0.5vw;
+    margin-bottom: 0.5vw;
+    font-weight: lighter;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.footer {
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 0.2vw;
+    background-color: #ff6961;
+    padding-top: 1vw;
+    padding-bottom: 1vw;
+    margin-top: 2vw;
+    color: white;
+    text-align: center;
+    font-size: 1vw;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.footer-words {
+    font-weight: lighter;
+    font-size: 0.7vw;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.detail-whole {
+    margin: 0.25vw;
+    margin-top: 2vw;
+}
+
+.detail-publisher {
+    margin-top: 2vw;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    margin-bottom: 6.81vw;
+}
+
+.detail {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-radius: 5px;
+    align-items: center;
+    justify-content: center;
+    width: 32vw;
+    margin: 0 auto;
+    padding: 1vw;
+}
+
+.detail-img {
+    justify-content: center;
+    align-items: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.contact-title, .contact-content h4, .contact-content h2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: lighter;
+    margin-top: 0.5vw;
+    margin-bottom: 0.5vw;
+}
+
+.contact-title, .publisher-title {
+    border-radius: 0.25vw 0.25vw 0 0;
+    font-size: 1.5vw;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.publisher-title {
+    color: white;
+    font-weight: lighter;
+    margin-bottom: 0.5vw;
+}
+
+.publisher-content {
+    background-color: slategray;
+    padding: 1vw;
+}
+
+.publisher-text {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: slategray;
+    color: white;
+    font-weight: lighter;
+    font-size: 1vw;
+    padding-left: 1vw;
+    padding-top: 0.25vw;
+    padding-bottom: 0.25vw;
+}
+
+.contact-content {
+    margin-left: 1vw;
+    padding-bottom: 1vw;
+}
+
+.contact-content h2 {
+    font-size: 1vw;
+}
+
+.contact-content h4 {
+    font-size: 0.8vw;
+}
+
+.contact {
+    margin-top: 1vw;
+    margin-bottom: 16vw;
+    margin-left: 30vw;
+    margin-right: 30vw;
+    background-color: whitesmoke;
+    border-radius: 0 0 0.25vw 0.25vw;
+}
